@@ -28,7 +28,7 @@ public class ConnectionFactory {
 		return connection;
 	}
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		
 		//recuperar uma conexão com o banco de dados
 		Connection con = createConnectionToMySQL();
